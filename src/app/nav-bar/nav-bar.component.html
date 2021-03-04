@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?	family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-transparent fixed-top mx-auto" [class.my]="changeCol">
+        <div class=" container "> <a class="navbar-brand " [class.myy]="coll" routerLink="/Home">Movies Website</a>
+            <button class="myBtn navbar-toggler d-lg-none" type=" button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2" [class.myy]="coll" routerLink="/Home" routerLinkActive="active bor">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2" [class.myy]="coll" routerLink="/Trending_Movies" routerLinkActive="active bor"> Trending Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2" [class.myy]="coll" routerLink="/TV_Shows" routerLinkActive="active bor"> Trending TV shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2" [class.myy]="coll" routerLink="/Famous_Actors" routerLinkActive="active bor">Famous Actors</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</body>
+
+</html>

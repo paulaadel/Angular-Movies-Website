@@ -1,0 +1,32 @@
+        .navbar {
+            transition: all .6s;
+            width: 80% !important;
+        }
+        
+        .navbar .myBtn {
+            background-color: crimson !important;
+        }
+        
+        .navbar ul li a:hover {
+            color: crimson !important;
+            transition: all .3s;
+        }
+        
+        #myNav ul li a:hover {
+            color: crimson !important;
+        }
+        
+        .my {
+            background-color: white !important;
+            width: 100% !important;
+        }
+        
+        .myy {
+            color: black !important;
+        }
+        
+        .bor {
+            border-bottom: 2px solid crimson;
+            color: crimson !important;
+            z-index: 1;
+        }
